@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Presentation.View"
         mc:Ignorable="d"
-        Title="MainWindow" Height="420" Width="375" Visibility="Visible" 
+        Title="MainWindow" Height="420" Width="375" Visibility="Visible" Background="Beige"
         MinHeight="420" MinWidth="375">
-    <Grid HorizontalAlignment="Center">
-        <StackPanel Background="White" Margin="0,50,0,0">
+    <Grid HorizontalAlignment="Center" Background="Transparent">
+        <StackPanel Background="Transparent" Margin="0,50,0,0">
             <StackPanel.Resources>
                 <Style TargetType="{x:Type TextBox}">
                     <Setter Property="Margin" Value="10"/>
